@@ -1,0 +1,270 @@
+[STEP] [2022-10-18 21:11:28] Looking for PHP CLI executable file.
+[WARN] [2022-10-18 21:11:28] Could not find proper PHP CLI executable, this process may be unstable.
+[WARN] [2022-10-18 21:11:28] PHP CLI file cannot be executed due to unknown reason.
+[STEP] [2022-10-18 21:11:28] Initializing backup...
+[INFO] [2022-10-18 21:11:28] Backup & Migration version: 1.2.2
+[INFO] [2022-10-18 21:11:28] Site which will be backed up: http://localhost/wordpress
+[INFO] [2022-10-18 21:11:28] PHP Version: 7.4.29
+[INFO] [2022-10-18 21:11:28] WP Version: 6.0.3
+[INFO] [2022-10-18 21:11:28] MySQL Version: 5.5.5
+[INFO] [2022-10-18 21:11:28] MySQL Max Length: 1048576
+[INFO] [2022-10-18 21:11:28] Web server: Apache/2.4.53 (Unix) OpenSSL/1.1.1o PHP/7.4.29 mod_perl/2.0.12 Perl/v5.34.1
+[INFO] [2022-10-18 21:11:28] Max execution time (in seconds): 259200
+[INFO] [2022-10-18 21:11:28] Max rows per query (this site): 300
+[INFO] [2022-10-18 21:11:28] Checking if backup dir is writable...
+[INFO] [2022-10-18 21:11:28] Initializing custom error handler
+[SUCCESS] [2022-10-18 21:11:28] Yup it is writable...
+[STEP] [2022-10-18 21:11:28] Scanning files...
+[STEP] [2022-10-18 21:11:28] Checking free space, reserving...
+[INFO] [2022-10-18 21:11:28] Requires at least 202801066 bytes. [193.41 MB]
+[INFO] [2022-10-18 21:11:28] Disk free space function is not disabled - using it...
+[INFO] [2022-10-18 21:11:28] Checking this path/partition: /opt/lampp/htdocs/wordpress/wp-content/backup-migration-x3ETfvg0yc/backups
+[SUCCESS] [2022-10-18 21:11:28] There is 15,520.60 MB free. [15.16 GB]
+[SUCCESS] [2022-10-18 21:11:28] Great! We have enough space.
+[SUCCESS] [2022-10-18 21:11:28] Confirmed, there is more than enough space, checked: 202801066 bytes
+[INFO] [2022-10-18 21:11:28] Scanning done - found 9399 files...
+[SUCCESS] [2022-10-18 21:11:28] Backup initialized...
+[STEP] [2022-10-18 21:11:28] Initializing archiving system...
+[SUCCESS] [2022-10-18 21:11:28] Archive system initialized...
+[STEP] [2022-10-18 21:11:28] Preparing map of files...
+[SUCCESS] [2022-10-18 21:11:28] Files prepared.
+[INFO] [2022-10-18 21:11:28] Starting compression process...
+[STEP] [2022-10-18 21:11:28] Smart memory calculation...
+[INFO] [2022-10-18 21:11:28] There is 512 MBs of memory to use
+[INFO] [2022-10-18 21:11:28] WordPress memory limit: 512 MBs
+[SUCCESS] [2022-10-18 21:11:28] Setting the safe limit to 115 MB
+[STEP] [2022-10-18 21:11:28] Making database backup (using v3 engine, requires at least v1.2.2 to restore)
+[INFO] [2022-10-18 21:11:28] Iterating database...
+[INFO] [2022-10-18 21:11:28] Memory usage after initialization: 88.33 MB
+[INFO] [2022-10-18 21:11:28] Scan found 94 tables (15339 rows), estimated total size: 81.99 MB.
+[INFO] [2022-10-18 21:11:28] Memory usage after getting table names: 88.38 MB 
+[INFO] [2022-10-18 21:11:28] Getting table recipes...
+[INFO] [2022-10-18 21:11:28] Table recipes have been exported.
+[INFO] [2022-10-18 21:11:28] Memory usage after loading recipes: 88.45 MB 
+[INFO] [2022-10-18 21:11:28] Saving recipes...
+[INFO] [2022-10-18 21:11:28] Recipes saved.
+[INFO] [2022-10-18 21:11:28] Memory usage after recipe off-load: 88.40 MB
+[INFO] [2022-10-18 21:11:28] Exporting table data...
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_actionscheduler_actions (0.22 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_actionscheduler_actions cloned, operation took: 0.01734 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_actionscheduler_claims (0.03 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_actionscheduler_claims cloned, operation took: 0.00016 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_actionscheduler_groups (0.03 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_actionscheduler_groups cloned, operation took: 0.00069 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_actionscheduler_logs (0.09 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_actionscheduler_logs cloned, operation took: 0.02011 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_commentmeta (0.05 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_commentmeta cloned, operation took: 0.00019 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_comments (0.11 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_comments cloned, operation took: 0.00084 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_e_events (0.03 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_e_events cloned, operation took: 0.00109 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_e_submissions (0.28 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_e_submissions cloned, operation took: 0.00024 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_e_submissions_actions_log (0.13 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_e_submissions_actions_log cloned, operation took: 0.00016 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_e_submissions_values (0.05 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_e_submissions_values cloned, operation took: 0.00009 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_gla_budget_recommendations (0.36 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_gla_budget_recommendations cloned, operation took: 0.12417 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_gla_merchant_issues (0.02 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_gla_merchant_issues cloned, operation took: 0.00019 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_gla_shipping_rates (0.05 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_gla_shipping_rates cloned, operation took: 0.00013 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_gla_shipping_times (0.03 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_gla_shipping_times cloned, operation took: 0.00239 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_links (0.03 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_links cloned, operation took: 0.00012 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_litespeed_url (0.05 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_litespeed_url cloned, operation took: 0.00018 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_litespeed_url_file (0.09 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_litespeed_url_file cloned, operation took: 0.00011 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_custom_fields (0.03 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_custom_fields cloned, operation took: 0.00009 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_dynamic_segment_filters (0.03 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_dynamic_segment_filters cloned, operation took: 0.00013 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_feature_flags (0.03 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_feature_flags cloned, operation took: 0.00015 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_forms (0.02 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_forms cloned, operation took: 0.00010 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_log (0.02 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_log cloned, operation took: 0.00010 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_newsletter_links (0.06 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_newsletter_links cloned, operation took: 0.00011 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_newsletter_option (0.03 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_newsletter_option cloned, operation took: 0.00010 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_newsletter_option_fields (0.03 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_newsletter_option_fields cloned, operation took: 0.00195 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_newsletter_posts (0.03 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_newsletter_posts cloned, operation took: 0.00010 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_newsletter_segment (0.03 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_newsletter_segment cloned, operation took: 0.00009 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_newsletter_templates (2.52 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_newsletter_templates cloned, operation took: 0.02309 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_newsletters (0.05 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_newsletters cloned, operation took: 0.00021 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_scheduled_task_subscribers (0.03 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_scheduled_task_subscribers cloned, operation took: 0.00014 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_scheduled_tasks (0.05 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_scheduled_tasks cloned, operation took: 0.00302 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_segments (0.05 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_segments cloned, operation took: 0.00115 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_sending_queues (0.05 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_sending_queues cloned, operation took: 0.00010 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_settings (0.03 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_settings cloned, operation took: 0.00129 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_statistics_bounces (0.02 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_statistics_bounces cloned, operation took: 0.00021 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_statistics_clicks (0.06 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_statistics_clicks cloned, operation took: 0.00015 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_statistics_forms (0.03 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_statistics_forms cloned, operation took: 0.00012 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_statistics_newsletters (0.05 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_statistics_newsletters cloned, operation took: 0.00009 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_statistics_opens (0.09 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_statistics_opens cloned, operation took: 0.00009 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_statistics_unsubscribes (0.06 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_statistics_unsubscribes cloned, operation took: 0.00009 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_statistics_woocommerce_purchases (0.08 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_statistics_woocommerce_purchases cloned, operation took: 0.00009 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_stats_notifications (0.05 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_stats_notifications cloned, operation took: 0.00011 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_subscriber_custom_field (0.03 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_subscriber_custom_field cloned, operation took: 0.00012 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_subscriber_ips (0.03 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_subscriber_ips cloned, operation took: 0.00010 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_subscriber_segment (0.05 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_subscriber_segment cloned, operation took: 0.00059 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_subscriber_tag (0.05 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_subscriber_tag cloned, operation took: 0.00010 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_subscribers (0.14 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_subscribers cloned, operation took: 0.00061 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_tags (0.03 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_tags cloned, operation took: 0.00010 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_user_agents (0.03 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_user_agents cloned, operation took: 0.00009 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_mailpoet_user_flags (0.03 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_mailpoet_user_flags cloned, operation took: 0.00011 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_options (4.56 MB)
+[INFO] [2022-10-18 21:11:28] Table: wp_options cloned, operation took: 0.11989 ms
+[INFO] [2022-10-18 21:11:28] Getting data of table: wp_postmeta (52.31 MB)
+[INFO] [2022-10-18 21:11:29] Table: wp_postmeta cloned, operation took: 0.94094 ms
+[INFO] [2022-10-18 21:11:29] Getting data of table: wp_posts (17.75 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_posts cloned, operation took: 0.48575 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_term_relationships (0.03 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_term_relationships cloned, operation took: 0.00120 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_term_taxonomy (0.05 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_term_taxonomy cloned, operation took: 0.00124 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_termmeta (0.05 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_termmeta cloned, operation took: 0.00060 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_terms (0.05 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_terms cloned, operation took: 0.00108 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_updraftcentral_events (0.03 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_updraftcentral_events cloned, operation took: 0.00023 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_updraftcentral_site_temporary_keys (0.03 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_updraftcentral_site_temporary_keys cloned, operation took: 0.00016 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_updraftcentral_sitemeta (0.05 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_updraftcentral_sitemeta cloned, operation took: 0.00011 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_updraftcentral_sites (0.03 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_updraftcentral_sites cloned, operation took: 0.00010 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_updraftcentral_user_cron (0.05 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_updraftcentral_user_cron cloned, operation took: 0.00050 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_usermeta (0.05 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_usermeta cloned, operation took: 0.00251 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_users (0.06 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_users cloned, operation took: 0.00070 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_wc_admin_note_actions (0.03 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_wc_admin_note_actions cloned, operation took: 0.00369 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_wc_admin_notes (0.05 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_wc_admin_notes cloned, operation took: 0.00542 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_wc_category_lookup (0.02 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_wc_category_lookup cloned, operation took: 0.00052 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_wc_customer_lookup (0.05 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_wc_customer_lookup cloned, operation took: 0.00012 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_wc_download_log (0.05 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_wc_download_log cloned, operation took: 0.00009 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_wc_order_coupon_lookup (0.05 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_wc_order_coupon_lookup cloned, operation took: 0.00009 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_wc_order_product_lookup (0.08 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_wc_order_product_lookup cloned, operation took: 0.00009 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_wc_order_stats (0.06 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_wc_order_stats cloned, operation took: 0.00009 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_wc_order_tax_lookup (0.05 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_wc_order_tax_lookup cloned, operation took: 0.00014 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_wc_product_attributes_lookup (0.03 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_wc_product_attributes_lookup cloned, operation took: 0.00015 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_wc_product_download_directories (0.03 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_wc_product_download_directories cloned, operation took: 0.00049 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_wc_product_meta_lookup (0.11 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_wc_product_meta_lookup cloned, operation took: 0.00067 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_wc_rate_limits (0.03 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_wc_rate_limits cloned, operation took: 0.00014 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_wc_reserved_stock (0.02 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_wc_reserved_stock cloned, operation took: 0.00018 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_wc_tax_rate_classes (0.03 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_wc_tax_rate_classes cloned, operation took: 0.00057 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_wc_webhooks (0.03 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_wc_webhooks cloned, operation took: 0.00012 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_woocommerce_api_keys (0.05 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_woocommerce_api_keys cloned, operation took: 0.00009 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_woocommerce_attribute_taxonomies (0.03 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_woocommerce_attribute_taxonomies cloned, operation took: 0.00009 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_woocommerce_downloadable_product_permissions (0.08 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_woocommerce_downloadable_product_permissions cloned, operation took: 0.00009 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_woocommerce_log (0.03 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_woocommerce_log cloned, operation took: 0.00009 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_woocommerce_order_itemmeta (0.05 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_woocommerce_order_itemmeta cloned, operation took: 0.00009 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_woocommerce_order_items (0.03 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_woocommerce_order_items cloned, operation took: 0.00009 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_woocommerce_payment_tokenmeta (0.05 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_woocommerce_payment_tokenmeta cloned, operation took: 0.00018 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_woocommerce_payment_tokens (0.03 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_woocommerce_payment_tokens cloned, operation took: 0.00023 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_woocommerce_sessions (0.03 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_woocommerce_sessions cloned, operation took: 0.00075 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_woocommerce_shipping_zone_locations (0.05 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_woocommerce_shipping_zone_locations cloned, operation took: 0.00057 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_woocommerce_shipping_zone_methods (0.02 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_woocommerce_shipping_zone_methods cloned, operation took: 0.00046 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_woocommerce_shipping_zones (0.02 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_woocommerce_shipping_zones cloned, operation took: 0.00045 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_woocommerce_tax_rate_locations (0.05 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_woocommerce_tax_rate_locations cloned, operation took: 0.00010 ms
+[INFO] [2022-10-18 21:11:30] Getting data of table: wp_woocommerce_tax_rates (0.08 MB)
+[INFO] [2022-10-18 21:11:30] Table: wp_woocommerce_tax_rates cloned, operation took: 0.00009 ms
+[INFO] [2022-10-18 21:11:30] Table data exported.
+[INFO] [2022-10-18 21:11:30] Memory usage after data export: 88.38 MB
+[INFO] [2022-10-18 21:11:30] Entire process took: 1.8851 s
+[SUCCESS] [2022-10-18 21:11:30] Database backup finished
+[STEP] [2022-10-18 21:11:30] Making archive
+[INFO] [2022-10-18 21:11:30] Compressing...
+[INFO] [2022-10-18 21:11:30] Using PclZip module to create the backup
+[INFO] [2022-10-18 21:11:30] Legacy setting: Using default modules depending on user server
+[WARN] [2022-10-18 21:11:30] Backup will run as single-request, may be unstable...
+[INFO] [2022-10-18 21:11:30] Chunks contain 500 files.
+[INFO] [2022-10-18 21:11:30] Milestone: 500/9399
+[INFO] [2022-10-18 21:11:30] Milestone: 1000/9399
+[INFO] [2022-10-18 21:11:30] Milestone: 1500/9399
+[INFO] [2022-10-18 21:11:31] Milestone: 2000/9399
+[INFO] [2022-10-18 21:11:32] Milestone: 2500/9399
+[INFO] [2022-10-18 21:11:32] Milestone: 3000/9399
+[INFO] [2022-10-18 21:11:32] Milestone: 3500/9399
+[INFO] [2022-10-18 21:11:32] Milestone: 4000/9399
+[INFO] [2022-10-18 21:11:33] Milestone: 4500/9399
+[INFO] [2022-10-18 21:11:33] Milestone: 5000/9399
+[INFO] [2022-10-18 21:11:33] Milestone: 5500/9399
+[INFO] [2022-10-18 21:11:33] Milestone: 6000/9399
+[INFO] [2022-10-18 21:11:34] Milestone: 6500/9399
+[INFO] [2022-10-18 21:11:34] Milestone: 7000/9399
+[INFO] [2022-10-18 21:11:35] Milestone: 7500/9399
+[INFO] [2022-10-18 21:11:36] Milestone: 8000/9399
+[INFO] [2022-10-18 21:11:37] Milestone: 8500/9399
+[INFO] [2022-10-18 21:11:38] Milestone: 9000/9399
+[INFO] [2022-10-18 21:11:38] Milestone: 9399/9399
+[SUCCESS] [2022-10-18 21:11:38] Compressed 9399 files
+[INFO] [2022-10-18 21:11:38] Archiving of 9399 files took: 10.69s
+[STEP] [2022-10-18 21:11:38] Finalizing backup
+[INFO] [2022-10-18 21:11:38] Adding manifest...
+[STEP] [2022-10-18 21:11:38] Closing files and archives
+[END-CODE] [2022-10-18 21:11:38] #001
